@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.tela-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #592e83;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loading-text {
+  color: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .loading-text {
+    font-size: 2rem;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-text {
+    font-size: 1.6rem;
+    margin-top: 10px;
+  }
+}

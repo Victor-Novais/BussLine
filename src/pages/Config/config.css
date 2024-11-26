@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-principal {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+
+.top {
+  width: 100vw;
+  height: 7.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 0.9375rem 0.9375rem 0rem 0rem; */
+  background: #592e83;
+  color: #fff;
+}
+
+.top-content .return {
+  display: inline-flex;
+  text-align: center;
+  padding: 4.0625rem 1.5rem 1.9375rem;
+}
+
+.return > span {
+  padding-top: 0.125rem;
+  padding-left: 0.3125rem;
+}
+
+.top-content .logo-config {
+  margin-top: 70%;
+  margin-left: -60%;
+}
+
+.contentPage {
+  margin-top: 0.9375rem;
+}
+
+.title {
+  box-shadow: #000;
+}
+
+.editConfig {
+  width: 90vw;
+  justify-content: space-between;
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 0.3125rem;
+}
+
+.txt {
+  flex-direction: column;
+  justify-content: center;
+  width: 21.875rem;
+  margin-left: 0.9375rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  background: #592e83;
+  margin-top: 3.75rem;
+  margin-bottom: 1.875rem;
+  border-radius: 0 0.625rem 0.625rem 0;
+  padding-top: 0.1875rem;
+  padding-bottom: 0.1875rem;
+  padding-left: 0.9375rem;
+  padding-right: 1.25rem;
+}
+.page {
+  width: 100vw;
+}
+h1 {
+  color: #240047;
+  font-size: 1.1563rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #000;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.option {
+  width: 5rem;
+  padding-top: 1.875rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 1.625rem;
+  height: 0.8125rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 0.625rem;
+  width: 0.625rem;
+  left: 0.0938rem;
+  bottom: 0.0938rem;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #240047;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0.0625rem #240047;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(0.7813rem);
+  -ms-transform: translateX(0.7813rem);
+  transform: translateX(0.75rem);
+}
+
+.slider.round {
+  border-radius: 2.125rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+hr {
+  width: 90vw;
+  height: 0.0625rem;
+  border: 1.0625rem;
+  border-top: 0.0625rem solid #592e83;
+  list-style-type: none;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  margin-left: 20%px;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem; /* Aumentando o tamanho da fonte do título */
+  }
+
+  p {
+    font-size: 1rem; /* Aumentando o tamanho da fonte do parágrafo */
+  }
+
+  .title {
+    font-size: 1.25rem; /* Aumentando o tamanho da fonte da seção de título */
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 1.75rem; /* Aumentando ainda mais o tamanho do título */
+  }
+
+  p {
+    font-size: 1.125rem; /* Aumentando ainda mais o tamanho do parágrafo */
+  }
+
+  .title {
+    font-size: 1.5rem; /* Aumentando ainda mais o tamanho do título */
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 2rem; /* Aumentando o tamanho do título em telas grandes */
+  }
+
+  p {
+    font-size: 1.25rem; /* Aumentando o tamanho do parágrafo em telas grandes */
+  }
+
+  .title {
+    font-size: 1.75rem; /* Aumentando o tamanho do título em telas grandes */
+  }
+}

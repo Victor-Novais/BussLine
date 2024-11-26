@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about {
+  background: var(--Schemes-On-Primary, #fff);
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0.9375rem;
+  justify-content: space-between;
+}
+
+#quemsomos {
+  width: 7.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  border-radius: 0rem 1.25rem 1.25rem 0rem;
+  margin-top: 1.875rem;
+  background: #592e83;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.3);
+}
+
+#quemsomos p {
+  display: flex;
+  width: 7.8125rem;
+  height: 1.75rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--Schemes-On-Primary, #fff);
+  text-align: center;
+}
+
+#descricao {
+  width: 90vw;
+  margin-top: 2.5rem;
+  text-align: justify;
+  padding-left: 1.25rem;
+}
+
+.termos {
+  display: flex;
+  width: 100vw;
+  height: 0.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #007aff;
+  font-size: 1rem;
+
+  text-align: center;
+}
+
+.outro {
+  display: flex;
+  width: 100vw;
+  height: 0.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  margin-top: 0.625rem;
+  font-size: 1rem;
+}
+footer {
+  margin-top: 70%;
+}
